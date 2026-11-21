@@ -1,0 +1,17 @@
+# Secrets
+.env
+**/.env
+*.jks
+*.keystore
+local.properties
+
+# Java / Maven
+**/target/
+*.class
+
+# Android / Gradle
+.gradle/
+**/build/
+.idea/
+*.iml
+.DS_Store

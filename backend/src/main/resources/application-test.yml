@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:lazar-test;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+lazar:
+  jwt:
+    secret: VGhpc0lzQVRlc3RTZWNyZXRLZXlXaXRoMzJCeXRlc09yTW9yZQ==
+    expiration-ms: 3600000
+  ai:
+    api-key: test-key
+    model: gemini-2.0-flash
+  usage:
+    free-daily-limit: 10
