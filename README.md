@@ -4,6 +4,9 @@ Revive your thoughts. Rediscover your focus.
 
 Lazar is a full-stack portfolio project: an Android (Java) client backed by a Spring Boot REST API, PostgreSQL persistence, JWT authentication, daily usage limits, and server-side Gemini integration.
 
+## Purpose
+Give Lazar your mess. Get back a plan
+
 ## Features
 - Register and authenticate with JWT access tokens.
 - Three guided workflows: `ORGANIZE_TASKS`, `ACTION_PLAN`, and `DRAFT_EMAIL`.
